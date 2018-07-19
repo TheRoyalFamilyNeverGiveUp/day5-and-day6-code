@@ -1,2 +1,22 @@
-# day5-and-day6-code
-第五天和第六天的代码
+body,
+table,
+th,
+tr,
+td,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding-left: 10px;
+}
+
+td,
+th {
+	padding-right: 10px;
+}
+
+p {
+	margin-bottom: 10px;
+}

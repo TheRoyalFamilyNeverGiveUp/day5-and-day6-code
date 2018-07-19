@@ -1,0 +1,44 @@
+body,
+table,
+th,
+tr,
+td,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: skyblue;
+	box-sizing: border-box;
+}
+
+td,
+th {
+	padding-right: 10px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.sidebar {
+	float: left;
+}
+.sidebar h1 {
+	color: white;
+	padding-top: 30px;
+	margin-left: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.main {
+	float: right;
+	background: #fff;
+	padding-left: 20px;
+	padding-right: 690px;
+	box-sizing: border-box;
+}
+.fixclear {
+	clear: both;
+}

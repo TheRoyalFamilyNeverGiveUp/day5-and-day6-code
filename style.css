@@ -1,0 +1,61 @@
+body,
+table,
+th,
+tr,
+td,
+p,
+h1,
+h3 {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	
+}
+
+td,
+th {
+	padding-right: 10px;
+}
+
+p {
+	
+}
+
+.sidebar {
+	width: 100%;
+	background: #aaa;
+}
+.sidebar h1 {
+	padding: 20px;
+}
+
+.content {
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+.content .title {
+	width: 15%;
+	height: 145px;
+	background: #ccc;
+	float: left;
+}
+.content .title h3 {
+	text-align: center;
+	line-height: 145px;
+}
+.content .desc {
+	width: 85%;
+	height: 145px;
+	float: right;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.content::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+
